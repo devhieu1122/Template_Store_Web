@@ -5,7 +5,7 @@
 	margin:0px;
 }
 
-@media (max-width: 1040px)
+@media (max-width: 1160px)
 body {
     overflow-x: auto;
 }
@@ -24,7 +24,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-	background:#F1F5A9
+	background:grey;
 	
 }
 .header {
@@ -37,7 +37,7 @@ body {
 	
 }
 
-@media (max-width: 1200px)
+@media (max-width: 1160px)
 .f-header {
     width: 1024px;
     max-width: 1024px;
@@ -51,8 +51,8 @@ body {
 }
 
 .f-header {
-	width: 1200px;
-    max-width: 1200px;	
+	width: 1160;
+    max-width: 1160px;	
 	min-height:56px;
 	font-family:"Comic Sans MS", cursive;
 	margin: 0 auto;
@@ -83,13 +83,13 @@ body {
 	width:56%;		
 }
 
-@media (max-width: 1200px).f-search>form {
+@media (max-width: 1160px).f-search>form {
     max-width: 470px;
 }
 
 .f-search>form {
     display: block;
-    width: 604px;
+    width: 590px;
     position: relative;
     z-index: 11;
 	margin: 7px 0px 20px 27px;	
@@ -98,9 +98,10 @@ body {
 .f-search>form>input {
     width: 100%;
     height: 38px;
-	padding: 0 0px 0 10px;
+	padding: 0 0 0 9px;
 	border-radius: 10px;
 	border:none;
+	
 }
 
 .f-search>form>button {
@@ -110,7 +111,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-	margin: 0px -10px 0 0 ;
+	margin: 0px -8px 0 0 ;
 	border:none;
 	border-radius:10px;
 	background:none;
@@ -126,39 +127,37 @@ body {
 	padding-left:20px;
 }
 
-.icon-dttrogia {
-	background-image: url(../image/icon/icon_trogia.gif);
-	background-repeat:no-repeat;
-	background-position: center;
-	width:20px;
-	height:10px;
-}
 
-.f-menu ul{
+
+.f-menu > ul{
 	list-style-type: none;	
 }
 
 .f-menu > li:first-child {
-	margin-left:0px;
+	margin-left:10px;
 }
 
 .f-menu > ul > li {
-	padding: 12px 4px 0 6px;
+	padding: 12px 0px 0px 0px;
 	
 	margin-left: 10px;
 	text-align: center;
 	display:inline-block;
 	position: relative;	
+	background: none;
+	
+	
 }
  
 
-li > a {
-	text-align:center;
+.f-menu > li > a {
+	text-align: center;
 	text-decoration:none;
 }
 
 span {
-	display:block;	
+	display:block;
+	
 }
 /*
 @media (max-width: 1200px)
@@ -182,10 +181,10 @@ span {
 
 .menu {
 	position:relative;
-	border:1px solid #F00; 
+	border:none; 
 	width:auto;
-    min-height: 36px;
-    background: #C0C;
+    min-height: 40px;
+    background: pink;
 	display:block;
 	
 }
@@ -203,8 +202,10 @@ span {
 	top:0;
 	left:0;
 	margin: 0 auto;
+	padding-top: 3px;
+	padding-left: 6px;
 	min-height:auto;
-	 background: #C0C;
+	 background:#black;
 	
 }
 
@@ -229,15 +230,254 @@ span {
 }
 
 .wrap-menu > ul > li{
-	padding: 2px 15px 0 15px;	
+	padding: 0px 15px 0 15px;	
 	margin-left: 10px;
 	text-align: center;
 	display:inline-block;
 	position: relative;
+}
+
+.content {
+	width: 1160px;
+	margin:  0 auto;
+}
+
+.c-wrap {
+background: none;
+}
+
+.ads {
+	width: auto;
+	padding-bottom: 88px;
+	background: #fff;
+	margin-top: 10px;
+}
+
+.c-banner {
+	margin: 20px 0;
+  width: 1160px;
+  height: 350px;
+  background: none;
+ 
+}
+
+.sliderImg {
+	height: auto;
+	width: 700px;
+	background: pink;
+	color: #eee;
+	border: 1px;
+	clear: right;
+	display: inline-block;
 	
+
+}
+.sliderImg img{
+	height: 310px;
+	width: 700px;
+}
+
+.right-banner{
+	
+	height: auto;
+	width: 450px;
+	margin-left: 5px;
+	background: none;
+	
+	float: right;
+
+
+}
+
+.ads1 {
+	height: 88px;
+	width: 450px;
+	background: white;
+	}
+
+ .ads2 {
+ 	height: 88px;
+	width: 450px;
+	background: white;
+	margin: 13px 0;
+}
+.news {
+
+	height: 136px;
+	width: 450px;
+	background: white;
+}
+.n-title {
+	background: none;
+	padding:6px;
+
+}
+
+.ntitle h3 {
+	font-size: 16px;
+	clear: right;
+}
+.n-title > h3 > a {
+	float: right;
+	font-size: 14px;
+	text-decoration: none;;
+	color: black;
+	font-weight: normal;
+	display: block;
+}
+
+.n-title > h3> a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+ .line-news {
+ 	width: auto;
+ 	height: 100px;
+ 	background: none;
+ }
+
+ .line-news > ul {
+ 	list-style-type: none; 
+ }
+
+ .line-news >ul > li{
+	 	padding: 7px 5px 0px 8px;
+
+ }
+ .line-news > ul > li > a > img{
+ 
+ 	float: left;
+ 	width: 70px;
+ 	height: 40px;
+ 	display: block;
+
+
+ 	 	
+ 	
+ }
+
+ .line-news > ul > li > a > span{
+ 	
+	width: auto;
+ 	height: 40px;
+ 	padding-left: 79px;
+
+
+ 	text-align: left;
+ 	color:black;
+ 	
+ 	
+
+
+}
+.produce {
+	width: auto;
+	height: auto;
+	margin-top: -30px;
+	background: none;
+
+}
+
+.produce > h2 {
+	display: inline-block;
+		text-transform: uppercase;
+		margin-top: 20px;
+		
+
+}
+
+.produce >a {
+	
+	
+	float: right;
+	text-decoration: none;
+	padding: 5px 5px 0  0;
+	font-weight: normal;
+	color: black;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 20px;
+	
+
+	
+	
+
+}
+
+.produce >a:hover {
+	
+	text-decoration: underline;
+	color: red;
+}
+.produce > hr {
+	border: none;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.phone1-left {
+	background: white;
+	width: 381px;
+	height: 300px;
+	float: left;
+	margin: 0  8px 0 0 ;
+
+}
+.phone2-home {
+	background: white;
+	width: 381px;
+	height: 300px;
+	float: left;
+	margin: 0  8px 0 0 ;
+	
+}
+
+.phone3-right {
+	background: white;
+	width: 381px;
+	height: 300px;
+	float: left;
 	
 	
 }
-*/
+
+.phone4-left, .phone5-home, .phone6-right{
+	background: white;
+	width: 381px;
+	height: 300px;
+
+	
+}
+
+.phone4-left {
+	
+	float: left;
+	margin: 0  8px 0 0 ;
+	margin-top: 15px;
+
+}
+.phone5-home {
+	
+	float: left;
+	margin: 0  8px 0 0 ;
+	margin-top: 15px;
+	
+}
+
+.phone6-right {
+	
+	float: left;
+	margin-top: 15px;
+	
+	
+}
+.clean {
+	clear: both;
+}
 
 
+
+
+ 
+ 	
