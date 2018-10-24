@@ -261,6 +261,87 @@ background: none;
  
 }
 
+/**********/
+
+.slider-holder
+        {
+            width: 700px;
+            height: 310px;
+            background-color: yellow;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+            display:inline-block;
+        }
+        
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        img{
+          width: 700px;
+          height: 310px;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: -0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -700px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1400px;
+        }
+        
+        .button-holder
+        {
+            position: relative;
+            top: -110px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+
+
+
+/**********/
+
+
+
+
+
+/*
 .sliderImg {
 	height: auto;
 	width: 700px;
@@ -275,7 +356,7 @@ background: none;
 .sliderImg img{
 	height: 310px;
 	width: 700px;
-}
+}*/
 
 .right-banner{
 	
@@ -283,7 +364,7 @@ background: none;
 	width: 450px;
 	margin-left: 5px;
 	background: none;
-	
+	display: block;
 	float: right;
 
 
@@ -366,11 +447,15 @@ background: none;
 
  	text-align: left;
  	color:black;
- 	
- 	
-
-
 }
+.line-news > ul > li > a{
+	text-decoration: none;
+}
+
+.line-news > ul > li > a:hover{
+text-decoration: underline;
+}
+
 .produce {
 	width: auto;
 	height: auto;
